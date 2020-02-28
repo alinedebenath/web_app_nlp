@@ -43,7 +43,7 @@ def adder_page():
                 {errors}
                 <form method="post" action="." role="form">
                 <div class="form-group">
-                    <textarea class="form-control" rows="6" input name="text1" placeholder="Entrer votre texte" required></textarea></div>
+                    <textarea class="form-control" rows="6" input name="text1" placeholder="Entrez votre texte" required></textarea></div>
                     <button type="submit" class="btn btn-success">Trouver les mots-clés</button>
                 </form>
                 </div>
