@@ -9,4 +9,4 @@ def keywordizer(text):
     text = [word for word in text if len(word)>1]
     import numpy as np
     text = np.unique(text)
-    return """', '""".join([str(elem) for elem in text])
+    return ", ".join([str(elem) for elem in text])
